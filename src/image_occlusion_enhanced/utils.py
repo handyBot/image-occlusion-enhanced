@@ -25,6 +25,7 @@ import urllib.error
 
 from ._vendor import imghdr
 from ._vendor.imagesize import imagesize
+from ._vendor import webp_size
 
 from .consts import *
 
@@ -80,6 +81,11 @@ def imageProp(image_path):
         width = _svg_convert_size(cwidth)
         
         return width, height
+
+    # webp graphics
+    if image_path.endswith(".webp"):
+        return webp_size.getDimensions(image_path)
+
     
     # Bitmap graphics
     img_fmt = imghdr.what(image_path)

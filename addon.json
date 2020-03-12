@@ -1,11 +1,11 @@
 {
-    "display_name": "Image Occlusion Enhanced",
+    "display_name": "Image Occlusion Enhanced (Webp support)",
     "module_name": "image_occlusion_enhanced",
     "repo_name": "image-occlusion-enhanced",
     "ankiweb_id": "1374772155",
     "author": "Glutanimate",
     "contact": "https://glutanimate.com",
-    "homepage": "https://github.com/glutanimate/image-occlusion-enhanced",
+    "homepage": "https://github.com/handyBot/image-occlusion-enhanced",
     "copyright_start": 2016,
     "tags": "image-occlusion editor",
     "conflicts": [],
