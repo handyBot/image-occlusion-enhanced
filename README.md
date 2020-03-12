@@ -12,6 +12,8 @@
 <a title="Follow me on Twitter" href="https://twitter.com/intent/user?screen_name=glutanimate"><img src="https://img.shields.io/twitter/follow/glutanimate.svg"></a>
 </p>
 
+<b><i>NOTE: This fork simply has added support for .webp image files.</i></b>
+
 > Flashcards from images – the easy way
 
 *Image Occlusion Enhanced* is an add-on for the spaced repetition flashcard app [Anki](https://apps.ankiweb.net/) that allows you to create image-based cloze-deletions.
